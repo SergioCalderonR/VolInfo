@@ -23,7 +23,6 @@ int wmain(int argc, WCHAR * argv[])
 {
 	//GetVolumeInformationW
 	BOOL volInfor;
-	LPCWSTR rootPath = L"D:\\";
 	WCHAR volName[MAX_PATH+1];
 	DWORD volumeNameSize = MAX_PATH + 1;
 	DWORD volSerialNumber;
